@@ -1,0 +1,40 @@
+#myVideo {
+    position: fixed;
+    top:0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+#headerOne {
+    display: flex;
+    justify-content: center;
+    color: #567ab3;
+    margin-top: 300px;
+    font-size: 35px;
+   
+}
+
+h1, button {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#myButton {
+    display: none;
+}
+
+@media all and (max-width: 500px) {
+    #myButton {
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #567ab3;
+        color: white;
+        display: block;
+    }
+
+    #headerOne {
+        font-size: 20px;
+    }
+}
+

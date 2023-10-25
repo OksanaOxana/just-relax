@@ -1,0 +1,172 @@
+
+body {
+    background: linear-gradient(to right, #411a15, #19100f) ;
+}
+
+#recipe {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 30px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.image {
+    display: flex;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    list-style: none;
+    background-color: #c16e3e;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+#bon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bon {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: #b05a4f;
+
+}
+
+h1 {
+    color: #b05a4f;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+h4 {
+    color:#764c47;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+ul, h2 {
+    color: #e5d0ae;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    text-decoration: underline 1px;
+}
+
+p {
+    padding: 10px;
+    text-align: center;
+    color: #e5d0ae;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#imgBon {
+    margin-bottom: 20px;
+    background-color: #e5d0ae;
+    padding: 3px;
+
+}
+
+#headerTwo {
+    display: flex;
+    justify-content: center;
+}
+
+#step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c16e3e;
+    width: 100vh;
+    height: 100vh;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#imgStep {
+    margin-bottom: 30px;
+    background: #764c47;
+    padding: 5px;
+}
+
+#btn {
+    padding: 15px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 57px;
+background: linear-gradient(145deg, #f5dfba, #cebb9d);
+box-shadow:  21px 21px 43px #7e7260,
+             -21px -21px 43px #fffffc;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #764c47;
+    font-size: 15px;
+}
+
+@media all and (max-width:800px) {
+    #recipe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .image {
+        margin: 0;
+    }
+
+    ul {
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 10px; 
+
+    }
+
+    #step {
+        width: 80%;
+    }
+
+    #recipePhoto {
+        width: 400px;
+    }
+}
+
+@media all and (max-width:500px) {
+    #imgStep {
+        width: 200px;
+        height: 100px;
+    }
+
+
+    ul { margin-left: 0px;}
+}

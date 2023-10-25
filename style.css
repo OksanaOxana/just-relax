@@ -1,0 +1,204 @@
+body {
+    background: linear-gradient(to right, #0616ef, #55a5e2);
+    background-repeat: no-repeat;
+   
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+}
+
+.par {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex:2
+}
+
+.girl {
+    flex:1
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+}
+
+.item {
+    font-family: 'Karla', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+h1:hover, h2:hover {
+    color: red;
+    text-transform: uppercase;
+}
+
+#box {
+    display: flex;
+}
+
+.mainPar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+}
+
+.parTwo  {
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(to right, #0616ef, #55a5e2);
+    border-radius: 30px;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    flex:1;
+    opacity: 0;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    background: linear-gradient(to right, #0616ef, #55a5e2);
+    border-radius: 30px;
+    opacity: 0;
+}
+
+.one {
+    background-image: url('beautiful-blonde-woman-blue-light.jpg');
+}
+
+.two {
+    background-image: url('laughing-woman-pointing-her-mouth.jpg');
+}
+
+.three {
+    background-image: url('young-woman-practicing-meditation.jpg');
+}
+
+.four {
+    background-image: url('beautiful-blonde-woman-blue-light\ \(1\).jpg');
+}
+
+
+.mainPar {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    margin: 10px;
+    position: relative
+}
+
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic {
+    margin: 10px;
+    padding: 10px;
+}
+
+#btn {
+    border-radius: 30px;
+    background: #0616ef;
+    box-shadow: inset 22px 22px 15px #030b75,
+                inset -22px -22px 15px #0921ff;
+             padding: 20px;
+             margin: 10px;      
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: wheat;
+}
+
+a:hover {
+    font-size: 25px;
+    color: black
+}
+
+#choose {
+    display: flex;
+    justify-content:center;
+}
+
+.selected .parTwo {
+    font-size: 20px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+
+.selected h3{
+    font-size: 24px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+
+@media all and (max-width: 1200px) {
+.selected .parTwo {
+    font-size: 15px;
+
+}
+
+.selected h3 {
+    font-size: 18px;
+}
+
+}
+
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #container, .photo, .main, #box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainPhoto {
+        width: 200px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    #btn {
+        width:200px;
+    }
+    
+}
+
+
+

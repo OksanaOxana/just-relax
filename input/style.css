@@ -1,0 +1,12 @@
+.checkbox {
+    accent-color: green;
+}
+
+
+.text::placeholder {
+    color: pink
+}
+
+.range {
+    accent-color: blueviolet;
+}
