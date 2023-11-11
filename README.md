@@ -9,6 +9,13 @@
   </a>
 </div> 
 
+### Built With
+
+
+* HTML/CSS
+* Bootstrap
+* JavaScript
+* GSAP
 
 <!-- ABOUT THE PROJECT -->
 
@@ -29,16 +36,6 @@ Here you can hear:
 * Sounds of crickets
 
 Use the `BLANK_README.md` to get started.
-
-
-### Built With
-
-
-* HTML/CSS
-* Bootstrap
-* JavaScript
-* GSAP
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
